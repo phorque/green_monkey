@@ -14,7 +14,6 @@ module GreenMonkey
       ActionView::Base.send :include, GreenMonkey::ViewHelper
 
       require "green_monkey/ext/action_view"
-      require "green_monkey/ext/haml"
       require "green_monkey/ext/mida"
     end
   end
