@@ -3,7 +3,7 @@ module GreenMonkey
     require 'green_monkey/railtie'
   else
     require "green_monkey/ext/mida"
-    require "green_monkey/ext/haml" if defined? Haml
+#    require "green_monkey/ext/haml" if defined? Haml
 
     if defined? ActiveModel
       require "green_monkey/ext/active_model"
